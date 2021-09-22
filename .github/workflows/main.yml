@@ -46,7 +46,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: step 5 - List target dir
         run: |
-          cd target
+          cd webapp
           ls -a
         
         
