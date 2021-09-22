@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI-Maven Build in GitHub Actions Example
+name: CI- Java Maven Build in GitHub Actions
 
 
 # Controls when the workflow will run
@@ -34,7 +34,7 @@ jobs:
           java-version: 1.8
           
       # Runs a set of commands using the runners shell
-      - name: step 3 List Dir
+      - name: step 3 List Directory 
         run: mvn --batch-mode package --file pom.xml
     
         
